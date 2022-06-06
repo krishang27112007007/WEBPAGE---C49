@@ -1,0 +1,55 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2{
+    text-align: center;
+} 
+
+.item p{
+    white-space: nowrap; 
+  width: 500px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000000;
+
+}
+.item:hover p{
+ overflow: visible;
+
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
